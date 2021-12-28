@@ -27,7 +27,7 @@ React testing library and jest has been used to create unit tests. The server re
 
 As a general rule, the tests are mainly focused on testing what is rendered to the screen and not the implementation details.
 
-For example, if the delete button is clicked, the tests should not check if the axios.delete function has been called, they should check that the color has been removed from the dashboard or not.
+For example, if the delete button is clicked, the tests should not check if the axios.delete function has been called, they should check that the color has been removed from the dashboard.
 
 To run tests simply issue `npm test` in the root directory.
 

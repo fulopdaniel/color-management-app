@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "dist",
+        "allowJs": true,
+        "lib": ["dom","es6"],
+        "baseUrl": "./src",
+        "paths": {
+            "@services/*": ["services/*"],
+            "@controllers/*": ["controllers/*"],
+            "@routes/*": ["routes/*"],
+            "@daos/*": ["db/*"],
+            "@util": ["util"],
+            "@types": ["types"],
+            "@const": ["const"],
+        }
+    },
+    "exclude": ["node_modules","dist"],
+    "include": ["./src/**/*.ts"]
+}

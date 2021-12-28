@@ -1,0 +1,16 @@
+.wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+  .vertical {
+    :global(.ant-row) {
+      flex-direction: column;
+    }
+    :global(.ant-form-item-label) {
+      text-align: left;
+    }
+  }
+  .backBtn {
+      margin-bottom: 20px;
+  }
+}

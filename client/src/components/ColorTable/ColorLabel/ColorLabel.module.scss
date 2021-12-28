@@ -1,0 +1,17 @@
+@import "src/styles/variables";
+
+.wrapper {
+  display: flex;
+  align-items: center;
+
+  .rect {
+    width: 1em;
+    height: 1em;
+    border: 1px solid black;
+    margin-right: 5px;
+  }
+
+  .text {
+      text-transform: uppercase;
+  }
+}

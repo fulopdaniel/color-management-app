@@ -1,6 +1,6 @@
 # Color management app
 
-This is a simple implementation of a color management application that capable of basic CRUD operations.
+This is a simple implementation of a color management application that is capable of basic CRUD operations.
 
 The application is separated to a backend and a frontend part - server and client.
 

@@ -11,7 +11,7 @@ npm install
 npm start
 ```
 
-To connect it to the server check out the [Server README.md](../server/README.md).
+To connect it to the server check out the [Server README.md](../server/).
 
 # Overview
 
